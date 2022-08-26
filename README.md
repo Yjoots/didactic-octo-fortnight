@@ -33,7 +33,7 @@ Transactions are evaluated with regard to the following rules:
 2. Client may dispute any transaction, including ones made on his own account
 3. Client may only resolve disputes they themselves issued
 4. Client may onnly issue chargebacks on transaction on own account
-5. Locked accounts may not perform any operations, however, new disputes may still be opened
+5. Locked accounts may not perform any operations, however, new disputes may still be opened and resolved
 
 ## Architecture
 

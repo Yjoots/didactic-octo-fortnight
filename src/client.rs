@@ -99,10 +99,6 @@ impl Client {
 
     /// Applies a dispute resolve transaction to the client
     pub fn apply_resolve(&mut self, t: &OperationTransaction) -> Result<(), DisputeError> {
-        if self.locked {
-            return Err(DisputeError::Locked(self.id));
-        }
-
         let amount = t.amount();
 
         debug_assert!(self.held >= amount);
