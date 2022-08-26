@@ -32,7 +32,7 @@ Transactions are evaluated with regard to the following rules:
 1. Withdrawals may not be made if the final state results in a negative account balance
 2. Client may dispute any transaction, including ones made on his own account
 3. Client may only resolve disputes they themselves issued
-4. Client may onnly issue chargebacks on transaction on own account
+4. Client may only issue chargebacks on transaction in own account
 5. Locked accounts may not perform any operations, however, new disputes may still be opened and resolved
 
 ## Architecture
